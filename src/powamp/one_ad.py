@@ -1053,7 +1053,7 @@ class OneAD:
             self._incr_hb_iters(hb_iters=iteration)
 
         # This is a pretty convenient output for debugging.
-        print("_get_vi_ad. try_linear={0}, cev_max={1}, iter={2}".format(try_linear, cev_max, iteration))
+        # print("_get_vi_ad. try_linear={0}, cev_max={1}, iter={2}".format(try_linear, cev_max, iteration))
         return (v_ad_t, i_ad_t)
 
         # The end of "OneAD._get_vi_ad" method.
