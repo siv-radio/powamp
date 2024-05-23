@@ -37,7 +37,7 @@ from .version import PKG_VERSION
 
 __version__ = PKG_VERSION
 
-__all__ = ['__version__', 'make_powamp', 'show_version', 'show_pa_models']
+__all__ = ['__version__', 'make_powamp', 'get_version', 'get_path']
 
 models = {
     'class-e:le': _class_e_le.Tuner,
